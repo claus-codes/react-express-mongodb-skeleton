@@ -1,0 +1,21 @@
+.navigation {
+  background: @menu-background-color;
+
+  .menu-list {
+    .menu-item a {
+      padding-right: @space-large;
+    }
+
+    &.float-right {
+      .menu-item a {
+        padding-right: 0;
+        padding-left: @space-large;
+      }
+    }
+  }
+
+  .menu-content {
+    margin: 0 auto;
+    padding: @space-small @space-medium;
+  }
+}
